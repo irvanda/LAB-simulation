@@ -1,0 +1,81 @@
+#/!bash
+
+rm *.out *.log *tr
+
+echo "start the script"
+echo "----------------"
+
+echo " "
+
+echo "sim_low_1"
+gcc sim_low_1.c -lm -o sim_low_1.out
+./sim_low_1.out > sim_low_1.log
+echo "finish sim_low_1"
+
+echo " "
+echo "sim_low_2"
+gcc sim_low_2.c -lm -o sim_low_2.out
+./sim_low_2.out > sim_low_2.log
+echo "finish sim_low_2"
+
+echo " "
+echo "sim_low_3"
+gcc sim_low_3.c -lm -o sim_low_3.out
+./sim_low_3.out > sim_low_3.log
+echo "finish sim_low_3"
+
+echo " "
+echo "sim_low_4"
+gcc sim_low_4.c -lm -o sim_low_4.out
+./sim_low_4.out > sim_low_4.log
+echo "finish sim_low_4"
+
+echo " "
+echo "sim_med_1"
+gcc sim_med_1.c -lm -o sim_med_1.out
+./sim_med_1.out > sim_med_1.log
+echo "finish sim_med_1"
+
+echo " "
+echo "sim_med_2"
+gcc sim_med_2.c -lm -o sim_med_2.out
+./sim_med_2.out > sim_med_2.log
+echo "finish sim_med_2"
+
+echo " "
+echo "sim_med_3"
+gcc sim_med_3.c -lm -o sim_med_3.out
+./sim_med_3.out > sim_med_3.log
+echo "finish sim_med_3"
+
+echo " "
+echo "sim_med_4"
+gcc sim_med_4.c -lm -o sim_med_4.out
+./sim_med_4.out > sim_med_4.log
+echo "finish sim_med_4"
+
+echo " "
+echo "sim_high_1"
+gcc sim_high_1.c -lm -o sim_high_1.out
+./sim_high_1.out > sim_high_1.log
+echo "finish sim_high_1"
+
+echo " "
+echo "sim_high_2"
+gcc sim_high_2.c -lm -o sim_high_2.out
+./sim_high_2.out > sim_high_2.log
+echo "finish sim_high_2"
+
+echo " "
+echo "sim_high_3"
+gcc sim_high_3.c -lm -o sim_high_3.out
+./sim_high_3.out > sim_high_3.log
+echo "finish sim_high_3"
+
+echo " "
+echo "sim_high_4"
+gcc sim_high_4.c -lm -o sim_high_4.out
+./sim_high_4.out > sim_high_4.log
+echo "finish sim_high_4"
+
+echo "Finish simulation . . . . "
